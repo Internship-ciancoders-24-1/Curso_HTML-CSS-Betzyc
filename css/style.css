@@ -21,6 +21,12 @@ html, body{
     padding: 0;
 }
 
+label, p{
+  font-size: var(--normal);
+  font-family: 'Open Sans', sans-serif;
+}
+
+
 nav{
     display: flex;
     background-color: var(--green-color);
@@ -34,7 +40,7 @@ nav ul{
     display: flex;
 }
 
-nav li{
+nav ul li{
     padding-left: 20px;
     list-style: none;
 }
@@ -42,11 +48,17 @@ nav li{
 nav li a{
     color: var(--black-color);
     text-decoration: none;
+    font-size: var(--normal);
 }
 
 nav li a:hover{
     color: var(--white-color);
 }
+
+hr{
+  opacity: .2;
+}
+
 
 /*Main section*/
 
@@ -57,27 +69,29 @@ nav li a:hover{
 
 /*Fin main*/
 
+/*Productos*/
+
 .products{
     background-image: url("../images/curve.png");
     max-height: 50px;
     background-size: cover;
     background-position: center top;
-    padding: 20%;
+    padding: 15%;
     background-repeat: no-repeat;
     display: flex;
     height: 95px;
 }
 
 .product{
-    padding: var(--space);
-    margin-top: -240px;
+    padding: 20px;
+    margin-top: -226px;
 }
 
-.product .content{
+/*.product .content{
     background-color: var(--white-color);
     padding: var(--space);   
     box-shadow: 0 0 1px var(--box);
-}
+}*/
 
 .image_product{
     text-align: center;
@@ -94,9 +108,9 @@ nav li a:hover{
     background-color: var(--green-color);
     width: 100%;
     padding: var(--space);
-    font-size: var(--space);
+    font-size: var(--space); /*posible se va */
     color:var(--white-color);
-    border: 0;
+    border: 0px;
     cursor: pointer;
     border-radius: 2px;
 }
@@ -144,8 +158,36 @@ nav li a:hover{
   .mention .text{
     padding: var(--space);
   }
+
+  /*--------------------------------Venta--------------------------*/
+
+.modulo_pago{
+background-color:var(--white-color);
+box-shadow: var(--box);
+padding:var(--space-2);
+}
+
+.modulo_pago_images{
+  max-width: 150px;
+  text-align: center;
+  width: 100%;
+  margin:auto;
+}
+
+.data{
+  margin-top: var(--space);
+  width: 100%;
+  padding: 5px;
+  border-radius: 2px;
+  border: 1px solid var(--black-color);
+  box-sizing: border-box;
+}
+
+.modulo_pago .main_btn{
+      margin-top: 10px;
+}
   
-  /* ------------------------------------------- Footer */
+  /* ------------------------------ Footer ------------------------ */
   footer{
     display: flex;
     justify-content: space-between;
@@ -153,4 +195,9 @@ nav li a:hover{
     background-color: var(--black-color);
     padding: var(--space);
     color: var(--white-color);
+  }
+
+  .contact a{
+    color: var(--white-color);
+    text-decoration: none;
   }

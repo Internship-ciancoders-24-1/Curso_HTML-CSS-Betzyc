@@ -38,3 +38,8 @@
 
 ![](/CAPITULOS/img/3.index.png)
 ![](/CAPITULOS/img/3.index2.png)
+
+## CAPITULO IV
+
+![](/CAPITULOS/img/4.producto.png)
+![](/CAPITULOS/img/4.venta.png)
