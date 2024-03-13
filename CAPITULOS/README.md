@@ -33,3 +33,8 @@
 
 ![](/CAPITULOS/img/2.inicio.png)
 ![](/CAPITULOS/img/2.js.png)
+
+## CAPITULO III
+
+![](/CAPITULOS/img/3.index.png)
+![](/CAPITULOS/img/3.index2.png)
